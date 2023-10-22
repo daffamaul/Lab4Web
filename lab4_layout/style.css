@@ -166,6 +166,9 @@ form input[type="submit"] {
   font-weight: bold;
   padding: 5px 15px;
 }
+form input[type="submit"]:hover {
+  background-color: rgb(11, 221, 11);
+}
 
 /* widget */
 .widget-box {

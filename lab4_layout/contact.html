@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Contact</h1>
+      </header>
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="article.html">Article</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>Input your identity</legend>
+          <p>
+            <label for="name">Name : </label>
+            <input type="text" name="name" id="name" />
+          </p>
+          <br />
+          <p>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" />
+          </p>
+          <br />
+          <p>
+            <label for="alamat">Message : </label>
+            <textarea name="message" id="message" cols="20" rows="3"></textarea>
+          </p>
+          <br />
+          <p>
+            <input type="submit" value="submit" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
